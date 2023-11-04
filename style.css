@@ -255,7 +255,7 @@ section { padding: 2rem 9%; }
   display: flex;
   justify-content: center;
   align-items: center;
-  background: no-repeat url('./images/background.jpg');
+  background: no-repeat url('./images/bgimg.jpg');
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
