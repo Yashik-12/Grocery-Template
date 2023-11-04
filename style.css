@@ -255,7 +255,7 @@ section { padding: 2rem 9%; }
   display: flex;
   justify-content: center;
   align-items: center;
-  background: no-repeat url('/images/bgimg.jpg');
+  background: no-repeat url(/images/bgimg.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
@@ -373,6 +373,7 @@ section { padding: 2rem 9%; }
   width: 20rem;
   height: 20rem;
 }
+
 .categories .box-container .box h3 {
   font-size: 2rem;
   color: var(--black);
@@ -412,11 +413,13 @@ section { padding: 2rem 9%; }
   color: var(--light-color);
   font-size: 1.5rem;
 }
+
 .review .review-slider .box h3 {
   padding-bottom: 0.5rem;
   color: var(--black);
   font-size: 2.2rem;
 }
+
 .review .review-slider .box .stars i {
   color: var(--orange);
   font-size: 1.7rem;
